@@ -34,3 +34,22 @@ El sistema demuestra el uso de componentes de software para separar la lógica d
     </tarea>
 </gestion_empresarial>
 ```
+
+---
+## 📦 Actividad 5: Empaquetado y Distribución (JAR)
+
+### Objetivo
+Generar un archivo **JAR (Java ARchive)** autoejecutable que contenga todos los binarios, recursos y metadatos necesarios para la entrega del software al cliente final.
+
+### Detalles del Entregable
+Se ha generado el archivo `AppGestionTareas.jar` mediante la configuración de artefactos en IntelliJ IDEA. Este archivo incluye:
+1.  **Bytecode:** Todas las clases compiladas de los paquetes `modelo`, `datos` y `vista`.
+2.  **Dependencias:** Librerías JAXB integradas (extracted) para funcionar sin instalaciones externas.
+3.  **Metadatos (`MANIFEST.MF`):** Archivo de manifiesto configurado con versión, autor y clase principal (`Main-Class`).
+
+### Instrucciones de Ejecución
+Para iniciar la aplicación en cualquier entorno con Java instalado (JRE 17+), ejecutar en terminal:
+
+```bash
+java -jar AppGestionTareas.jar
+```
