@@ -53,3 +53,13 @@ Para iniciar la aplicación en cualquier entorno con Java instalado (JRE 17+), e
 ```bash
 java -jar AppGestionTareas.jar
 ```
+### ⚠️ NOTA IMPORTANTE SOBRE LA BASE DE DATOS XML
+La persistencia de datos se realiza en un archivo local llamado bbdd_tareas.xml. Tenga en cuenta el siguiente comportamiento:
+
+Ubicación Relativa: La aplicación crea y busca este archivo en la misma carpeta desde donde se ejecuta el archivo .jar.
+
+- Portabilidad:
+
+  - Si copia solo el archivo .jar a otro ordenador, la aplicación iniciará vacía (sin tareas), ya que creará un nuevo archivo XML desde cero.
+
+  - Si desea conservar los datos al mover la aplicación, debe copiar ambos archivos (AppGestionTareas.jar y bbdd_tareas.xml) a la nueva ubicación.
