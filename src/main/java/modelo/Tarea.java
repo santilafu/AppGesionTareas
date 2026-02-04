@@ -1,3 +1,5 @@
+package modelo;
+
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "tarea") // Define la etiqueta raíz de cada registro

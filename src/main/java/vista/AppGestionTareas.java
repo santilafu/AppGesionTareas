@@ -1,3 +1,5 @@
+package vista;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
@@ -52,11 +54,11 @@ public class AppGestionTareas extends JFrame {
 
         // Formulario de Alta
         JPanel panelForm = new JPanel(new GridLayout(3, 2, 5, 5));
-        panelForm.setBorder(BorderFactory.createTitledBorder(" Nueva Tarea "));
+        panelForm.setBorder(BorderFactory.createTitledBorder(" Nueva modelo.Tarea "));
 
         inputTarea = new JTextField();
         comboPrioridad = new JComboBox<>(new String[]{"Alta", "Media", "Baja"});
-        JButton btnAgregar = new JButton("Guardar Tarea");
+        JButton btnAgregar = new JButton("Guardar modelo.Tarea");
         btnAgregar.setBackground(new Color(204, 229, 255));
 
         panelForm.add(new JLabel("Descripción:")); panelForm.add(inputTarea);
