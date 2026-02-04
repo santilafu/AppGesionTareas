@@ -1,5 +1,9 @@
 package vista;
 
+import datos.ComponenteGestorXML;
+import modelo.BaseDatosXML;
+import modelo.Tarea;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;

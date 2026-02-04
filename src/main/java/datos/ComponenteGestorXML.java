@@ -1,6 +1,8 @@
 package datos;
 
 import jakarta.xml.bind.*;
+import modelo.BaseDatosXML;
+
 import java.io.File;
 
 public class ComponenteGestorXML {
